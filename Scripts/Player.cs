@@ -10,10 +10,7 @@ public class Player : MonoBehaviour
     private float boundry = 8.35f;
     private float horizontalInput;
     
-    private void start()
-    {
-        InvokeRepeating("Prefab",3f,20f);
-    }
+  
     void Update()
     {
         Prefab();
